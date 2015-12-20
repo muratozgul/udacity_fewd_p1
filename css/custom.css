@@ -1,5 +1,30 @@
 
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
 
-img, embed, object, video {
-  max-width: 100%;
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.udacity-logo{
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.name{
+  font-size: 60px;
+}
+
+@media screen and (max-width: 580px) {
+  .name{
+    font-size: 42px;
+  }
 }
