@@ -10,12 +10,37 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
+  <nav class="navbar navbar-default visible-xs-block">
+    <div class="container">
+    
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img class="navbar-logo" src="images/udacity_logo.svg" alt="Udacity Logo">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <a href="#">Link1</a></li>
+          <a href="#">Link2</a></li>
+          <a href="#">Link3</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
   <div class="container">
     <header class="row">
-      <div class="col-xs-3 col-sm-3">
+      <div class="hidden-xs col-sm-3">
         <img class="img-responsive udacity-logo" src="images/udacity_logo.svg" alt="Udacity Logo">
       </div>
-      <div class="col-xs-9 col-sm-9 text-right text-uppercase">
+      <div class="col-xs-12 col-sm-9 text-right text-uppercase">
         <h1 class="name text-thin">Jane Doette</h1>
         <h4 class="nickname">Front-end Ninja</h4>
       </div>
@@ -75,5 +100,7 @@
     </section>
   </div>
   <script src="js/picturefill.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

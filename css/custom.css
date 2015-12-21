@@ -19,12 +19,24 @@ body {
   margin-top: 20px;
 }
 
-.name{
+.name {
   font-size: 60px;
 }
 
 @media screen and (max-width: 580px) {
-  .name{
+  .name {
     font-size: 42px;
   }
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-logo {
+  height: 100%;
 }
