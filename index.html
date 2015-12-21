@@ -28,9 +28,17 @@
     <section class="row">
       <div class="col-md-12">
         <picture>
-          <source media="(min-width:801px)" srcset="images/paris_1200x400.jpg">
-          <source media="(min-width:401px)" srcset="images/paris_800x267.jpg">
-          <img class="img-responsive main-image" src="images/paris_400x134.jpg" alt="Paris"/>
+          <source 
+            media="(min-width:801px)" 
+            srcset="images/paris_1200x400.jpg 1x, images/paris_2400x800.jpg 2x">
+          <source 
+            media="(min-width:401px)" 
+            srcset="images/paris_800x267.jpg 1x, images/paris_1600x533.jpg 2x">
+          <img 
+            class="img-responsive center-block main-image"
+            src="images/paris_400x134.jpg"
+            srcset="images/paris_400x134.jpg 1x, images/paris_800x267.jpg 2x"
+            alt="Paris"/>
         </picture>
       </div>
     </section>
@@ -66,5 +74,6 @@
       </div>
     </section>
   </div>
+  <script src="js/picturefill.min.js"></script>
 </body>
 </html>
